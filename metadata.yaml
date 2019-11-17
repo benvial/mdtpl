@@ -1,0 +1,32 @@
+---
+title: "Adaptive machine learning assisted genetic algorithm: application to the design of optical devices"
+author:
+  - name: Benjamin Vial
+    affiliation: Queen Mary University of London
+    location: London, United Kingdom
+    email: b.vial@qmul.ac.uk
+  - name: Yang Hao
+    affiliation: Queen Mary University of London
+    location: London, United Kingdom
+    email: y.hao@qmul.ac.uk
+keywords:
+  - one
+  - two
+  - three
+# date: 09/11/2019
+classoption: journal
+numbersections: yes
+titlecolor: b56e62
+sectioncolor: 4e5888
+biblio-style: IEEEtran
+fontfamily: cmbright
+graphicspath: "../fig/"
+lang: en
+babel-lang: english
+header-includes: |
+    \usepackage{lipsum}
+abstract: |
+  We present the developp a genetic algorithm framework that is  used
+# xnos-capitalise: true
+eqnos-eqref: true
+---
