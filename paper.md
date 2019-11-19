@@ -12,7 +12,7 @@
 
 $$ \int_0^1 x \,\rm d x = \frac{1}{2} $$ {#eq:id}
 
-See Eq. @eq:id. Testing a citation Ref.[@agrawalTunableBSTMgO2004]
+See Eq. @eq:id. Testing a citation Ref.[@pendry_controlling_2006]
 
 # Footnotes
 
@@ -20,17 +20,18 @@ See Eq. @eq:id. Testing a citation Ref.[@agrawalTunableBSTMgO2004]
 
 Example of footnote^[A footnote example]. And a figure:
 
-![Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi voluptate velit.](fig1.png){#fig:id}
+![Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi voluptate velit.](fig1.png){#fig:id}
 
 As you can see on Fig. (@fig:id)...
 
 # Cites
 
-\lipsum[7-9] 
-This is a cite [@padurariuTailoringNonlinearDielectric2012]
+\lipsum[7-9]
+This is a cite [@vial_quasimodal_2014]
 
 # Conclusion
 
-\lipsum[8] 
+\lipsum[8]
 
 # References
