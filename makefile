@@ -1,4 +1,7 @@
-FILES = paper.md \
+
+NAME = paper
+
+FILES = $(NAME).md \
 		metadata.yaml
 
 OUTPUT = build
@@ -20,11 +23,13 @@ all: pdf
 # 	pandoc -o $(OUTPUT)/paper.pdf $(FLAGS) $(FLAGS_PDF) $(FILES)
 
 tex:
-	pandoc -o $(OUTPUT)/paper.tex $(FLAGS) $(FLAGS_PDF) $(FILES) --natbib
+	pandoc -o $(OUTPUT)/$(NAME).tex $(FLAGS) $(FLAGS_PDF) $(FILES) --natbib
 
 pdf: tex
-	cd $(OUTPUT) && pdflatex paper && bibtex paper && pdflatex paper && pdflatex paper
+	cd $(OUTPUT) && pdflatex $(NAME) && bibtex $(NAME) && pdflatex $(NAME) && pdflatex $(NAME)
 
+read:
+	xdg-open $(OUTPUT)/$(NAME).pdf
 
 clean:
 	rm build/*

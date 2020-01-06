@@ -16,8 +16,8 @@ keywords:
 # date: 09/11/2019
 classoption: journal
 numbersections: yes
-titlecolor: b56e62
-sectioncolor: 4e5888
+titlecolor: 1A428A
+sectioncolor: C70151
 biblio-style: IEEEtran
 fontfamily: cmbright
 graphicspath: "../fig/"
@@ -26,7 +26,7 @@ babel-lang: english
 header-includes: |
     \usepackage{lipsum}
 abstract: |
-  We present the developp a genetic algorithm framework that is  used
+  We present a genetic algorithm framework that is used
 # xnos-capitalise: true
 eqnos-eqref: true
 ---

@@ -2,17 +2,15 @@
 
 \lipsum[1]
 
-
-
 # Method
 
-## Maintaining the Integrity of the Specifications
+## Genetic algorithm
 
 \lipsum[2-5]
 
 $$ \int_0^1 x \,\rm d x = \frac{1}{2} $$ {#eq:id}
 
-See Eq. @eq:id. Testing a citation Ref.[@pendry_controlling_2006]
+See Eq.$~$@eq:id. Testing a citation Ref.[@pendry_controlling_2006]
 
 # Footnotes
 
