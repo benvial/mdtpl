@@ -17,6 +17,9 @@ FLAGS = --filter pandoc-xnos \
 
 FLAGS_PDF = --template=template.latex
 
+watch:
+	bash autobuild
+
 all: pdf
 
 # pdf:
