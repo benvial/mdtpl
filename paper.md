@@ -12,8 +12,6 @@ We describe here the algorithms.
 
 $$ \int_0^1 x \,\rm d x = \frac{1}{2} $$ {#eq:id}
 
-
-
 See Eq.$~$@eq:id. Testing a citation Ref.[@pendryControllingElectromagneticFields2006].
 
 # Footnotes

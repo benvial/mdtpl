@@ -10,9 +10,9 @@ author:
     location: London, United Kingdom
     email: y.hao@qmul.ac.uk
 keywords:
-  - one
-  - two
-  - three
+  - genetic optimization
+  - machine learning
+  - photonics
 # date: 09/11/2019
 classoption: journal
 numbersections: yes
@@ -26,7 +26,13 @@ babel-lang: english
 header-includes: |
     \usepackage{lipsum}
 abstract: |
-  We present a genetic algorithm framework that is used
+  We present a genetic algorithm framework that make use surrogate modelling
+  to reduce the computational time of the optimization process. We conduct a convergence analysis
+  for various benchmarks functions, exploring the influence of the type of metamodels
+  and their hyperparameters.
+  This framework is finally applied to the design of optical devices, namely a multilayer filter and a
+  metagrating, hence demonstrating a rapid and reliable tool for the engineering of
+  electromagnetic functionalities in nanophotonics and microwave.
 # xnos-capitalise: true
 eqnos-eqref: true
 ---

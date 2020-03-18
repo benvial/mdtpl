@@ -5,9 +5,9 @@ FILES = $(NAME).md \
 		metadata.yaml
 
 OUTPUT = build
+SRC = src
 
 BIB = $(HOME)/.bib/biblio.bib
-
 
 FLAGS = --filter pandoc-xnos \
 		--bibliography=$(BIB) \
@@ -15,17 +15,22 @@ FLAGS = --filter pandoc-xnos \
 		-f markdown
 
 
-FLAGS_PDF = --template=template.latex
+FLAGS_PDF = --template=$(SRC)/template.latex
 
 watch:
-	bash autobuild
+	bash $(SRC)/autobuild
 
 all: pdf
 
 # pdf:
 # 	pandoc -o $(OUTPUT)/paper.pdf $(FLAGS) $(FLAGS_PDF) $(FILES)
 
-tex:
+init:
+	mkdir -p $(OUTPUT)
+	cp -n $(SRC)/IEEEtran.cls $(OUTPUT)
+	cp -n $(SRC)/IEEEtran.bst $(OUTPUT)
+
+tex: init
 	pandoc -o $(OUTPUT)/$(NAME).tex $(FLAGS) $(FLAGS_PDF) $(FILES) --natbib
 
 pdf: tex
