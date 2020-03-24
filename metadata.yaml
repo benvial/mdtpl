@@ -1,18 +1,26 @@
 ---
-title: "Adaptive machine learning assisted genetic algorithm: application to the design of optical devices"
+title: "Title of the paper"
 author:
-  - name: Benjamin Vial
-    affiliation: Queen Mary University of London
-    location: London, United Kingdom
-    email: b.vial@qmul.ac.uk
-  - name: Yang Hao
-    affiliation: Queen Mary University of London
-    location: London, United Kingdom
-    email: y.hao@qmul.ac.uk
+  # - name: Benjamin Vial
+  #   affiliation: Queen Mary University of London
+  #   location: London, United Kingdom
+  #   email: b.vial@qmul.ac.uk
+  # - name: Yang Hao
+  #   affiliation: Queen Mary University of London
+  #   location: London, United Kingdom
+  #   email: y.hao@qmul.ac.uk
+  - name: Author One
+    affiliation: University of Things
+    location: City, Country
+    email: a.one@email.com
+  - name: Someone Else
+    affiliation: Company of Stuff
+    location: Somewhere, Another Country
+    email: s.else@whatever.io
+  
 keywords:
-  - genetic optimization
-  - machine learning
-  - photonics
+  - template
+  - latex
 # date: 09/11/2019
 classoption: journal
 numbersections: yes
@@ -23,16 +31,16 @@ fontfamily: cmbright
 graphicspath: "../fig/"
 lang: en
 babel-lang: english
+# add latex packages here
 header-includes: |
     \usepackage{lipsum}
 abstract: |
-  We present a genetic algorithm framework that make use surrogate modelling
-  to reduce the computational time of the optimization process. We conduct a convergence analysis
-  for various benchmarks functions, exploring the influence of the type of metamodels
-  and their hyperparameters.
-  This framework is finally applied to the design of optical devices, namely a multilayer filter and a
-  metagrating, hence demonstrating a rapid and reliable tool for the engineering of
-  electromagnetic functionalities in nanophotonics and microwave.
+  Maecenas ultricies eros sit amet ante. Ut venenatis velit.
+  Maecenas sed mi eget dui varius euismod. Phasellus aliquet
+  volutpat odio. Vestibulum ante ipsum primis in faucibus orci
+  luctus et ultrices posuere cubilia Curae; Pellentesque sit
+  amet pede ac sem eleifend consectetuer. Nullam elementum,
+  urna vel imperdiet sodales, elit ipsum pharetra ligula.
 # xnos-capitalise: true
 eqnos-eqref: true
 ---

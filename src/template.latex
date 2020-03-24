@@ -11,6 +11,13 @@
 {\color{sectioncolor}\normalfont\bfseries}
 {\color{sectioncolor}\thesection}{1em}{}
 
+\titleformat{\subsection}{\color{titlecolor}\itshape}{\thesubsection}{1em}{}
+
+
+\titleformat{\subsubsection}{\itshape}{}{0em}{}
+\titlespacing*{\subsubsection}
+{0pt}{2.5ex plus 1ex minus .2ex}{0.7ex plus .2ex}
+
 % #############################################################################
 
 $if(beamerarticle)$
