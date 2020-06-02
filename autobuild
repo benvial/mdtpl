@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+export smk="make --no-print-directory"
+# export openfile="xdg-open ./build/paper.pdf "
+# && $openfile > /dev/null 2>&1 
+
+function build {
+  echo Building document...; $smk pdf && echo Done || ($smk check && echo Failed);
+}
+
+
+if [ "$1" == "watch" ]; then
+  
+  echo -----------------------------
+  echo Rebuilding document on change
+  echo -----------------------------
+
+  while inotifywait -qq -e create -e moved_to -e close_write \
+    ./src/paper.md ./src/metadata.yaml ./src/macros.tex ./src/fig/; 
+  do 
+    build
+  done
+  
+else
+  build  
+fi

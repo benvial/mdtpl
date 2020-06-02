@@ -58,18 +58,24 @@ urna vel imperdiet sodales, elit ipsum pharetra ligula, ac
 pretium ante justo a nulla. Curabitur tristique arcu eu metus.
 Vestibulum lectus. Proin mauris. Proin eu nunc eu urna
 hendrerit faucibus. Aliquam auctor, pede consequat laoreet
-varius, eros tellus scelerisque quam, pelle
+varius, eros tellus scelerisque quam, pelle.
 
+
+<!-- $$ \ghjd $$ -->
 
 ### Equations
 
 Aliquam auctor, pede consequat laoreet
 varius, eros tellus scelerisque quam, pelle
 
-$$ \int_0^1 x \,\rm d x = \frac{1}{2} $$ {#eq:id}
+$$ \int_0^1 x \,\mathrm{d} x = \frac{1}{2} $$ {#eq:id}
 
 See Eq.$~$@eq:id. 
 
+
+Use macros:
+
+$$ z = \re x$$
 
 ### Citing
 
@@ -125,6 +131,6 @@ urna vel imperdiet sodales, elit ipsum pharetra ligula, ac
 pretium ante justo a nulla. Curabitur tristique arcu eu metus.
 Vestibulum lectus. Proin mauris. Proin eu nunc eu urna
 hendrerit faucibus. Aliquam auctor, pede consequat laoreet
-varius, eros tellus scelerisque quam, pelle
+varius, eros tellus scelerisque quam, pelle.
 
 # References

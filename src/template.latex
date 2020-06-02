@@ -4,14 +4,15 @@
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \usepackage{titlesec}
-\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
 \definecolor{titlecolor}{HTML}{$titlecolor$}
 \definecolor{sectioncolor}{HTML}{$sectioncolor$}
+\definecolor{subsectioncolor}{HTML}{$subsectioncolor$}
 \titleformat{\section}
 {\color{sectioncolor}\normalfont\bfseries}
 {\color{sectioncolor}\thesection}{1em}{}
 
-\titleformat{\subsection}{\color{titlecolor}\itshape}{\thesubsection}{1em}{}
+\titleformat{\subsection}{\color{subsectioncolor}\itshape}{\thesubsection}{1em}{}
 
 
 \titleformat{\subsubsection}{\itshape}{}{0em}{}
@@ -297,6 +298,7 @@ $endif$
 $body$
 
 $if(natbib)$
+\def\bibfont{\footnotesize}
 $if(bibliography)$
 $if(biblio-title)$
 $if(book-class)$

@@ -21,19 +21,26 @@ author:
 keywords:
   - template
   - latex
+  - buzzword
 # date: 09/11/2019
 classoption: journal
 numbersections: yes
-titlecolor: 1A428A
-sectioncolor: C70151
-biblio-style: IEEEtran
+titlecolor: 9e4a4f
+sectioncolor: 9e4a4f
+subsectioncolor: 9e4a4f
+urlcolor: titlecolor
+citecolor: titlecolor
+linkcolor: titlecolor
+colorlinks: yes
+biblio-style: biblio
 fontfamily: cmbright
-graphicspath: "../fig/"
+graphicspath: "./fig/"
 lang: en
 babel-lang: english
 # add latex packages here
 header-includes: |
     \usepackage{lipsum}
+    \input{macros.tex}
 abstract: |
   Maecenas ultricies eros sit amet ante. Ut venenatis velit.
   Maecenas sed mi eget dui varius euismod. Phasellus aliquet
